@@ -109,7 +109,7 @@ When you made changes in Glitch, they are automatically deployed. However, they 
 1. Update `master` with the new commit(s)
   - Back in your `universe-bot` fork on GitHub, you will see there is now a branch called `glitch`
   - For now, this could be OK because at least your code is saved
-  - To add these changes to the master branch, create a [pull request](https://help.github.com/articles/about-pull-requests/) with `base fork: USERNAME/universe-bot`, `base: master` and `compare: glitch`. It's a good idea to add more cnotext to the body and title of this pull request for future reference. 
+  - To add these changes to the master branch, create a [pull request](https://help.github.com/articles/about-pull-requests/) with `base fork: USERNAME/universe-bot`, `base: master` and `compare: glitch`. It's a good idea to add more context to the body and title of this pull request for future reference. 
   - Merge the pull request and delete the `glitch` branch.
 
 > _Note: The information in the `.env` file is confidential, so it is not pushed back to GitHub. Do not commit tokens._
